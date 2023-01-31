@@ -6,7 +6,9 @@ import { CATEGORIES } from "../data/data";
 function CategoriesScreen({ navigation }) {
   function renderCategoryItem(itemData) {
     function pressHandler() {
-      navigation.navigate("MealsOverview");
+      navigation.navigate("MealsOverview", {
+        categoryId: itemData.item.id, // we define params in this object to get it in MealsOverviewScreen
+      });
     }
 
     return (
