@@ -1,5 +1,6 @@
 import { Text, Image, View } from "react-native";
 
+import MealDetails from "../components/MealDetails";
 import { MEALS } from "../data/data";
 
 function MealDetailScreen({ route }) {
@@ -9,7 +10,11 @@ function MealDetailScreen({ route }) {
     <View>
       <Image source={{ uri: selectedMeal.imageUrl }} />
       <Text>{selectedMeal.title}</Text>
-      <View></View>
+      <MealDetails
+        duration={selectedMeal.duration}
+        affordability={selectedMeal.affordability}
+        complexity={selectedMeal.complexity}
+      />
       <Text>Ingredients</Text>
       <Text>Steps</Text>
     </View>

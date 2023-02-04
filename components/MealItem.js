@@ -9,6 +9,8 @@ import {
 
 import { useNavigation } from "@react-navigation/native";
 
+import MealDetails from "./MealDetails";
+
 function MealItem({
   id,
   title,
@@ -37,6 +39,11 @@ function MealItem({
             <Image source={{ uri: imageUrl }} style={styles.image} />
             <Text style={styles.title}>{title}</Text>
           </View>
+          <MealDetails
+            duration={duration}
+            affordability={affordability}
+            complexity={complexity}
+          />
         </View>
       </Pressable>
     </View>
