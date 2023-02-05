@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Button } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -36,13 +36,7 @@ export default function App() {
             //   return { title: catId };
             // }} // we get route and navigation properties automatically by react navigation passed to into this function when we define such function for options
           />
-          <Stack.Screen
-            name="MealDetail"
-            component={MealDetailScreen}
-            options={{
-              title: "Meal Detail",
-            }}
-          />
+          <Stack.Screen name="MealDetail" component={MealDetailScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
