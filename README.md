@@ -1,8 +1,8 @@
 # Meals App
 
-![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj1b.webp)
-![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj1c.webp)
-![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj1d.webp)
+![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj2a.webp)
+![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj2b.webp)
+![MealsApp](https://piotr.rzadkowolski.dev/assets/mobile/proj2c.webp)
 
 ## Introduction
 This is a code repository for the **MealsApp** project
